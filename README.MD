@@ -17,6 +17,15 @@ Note: You should have at least 8 GB of RAM available to run the 7B models, 16 GB
 # Ollama with Huggin Face Hub
 https://python.langchain.com/docs/integrations/llms/ollama#setup
 
+### Test run services
+
+```shell
+    curl http://localhost:11434/api/generate -d '{
+      "model": "llama2",
+      "prompt":"Why is the sky blue?"
+    }'
+```
+
 # Run LLMs locally
 https://python.langchain.com/docs/guides/local_llms
 
